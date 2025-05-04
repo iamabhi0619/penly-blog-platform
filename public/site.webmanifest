@@ -1,0 +1,26 @@
+{
+  "name": "Penly",
+  "short_name": "Penly",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ecf8f1",
+  "theme_color": "#9d8189",
+  "icons": [
+    {
+      "src": "/assets/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/maskable-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
