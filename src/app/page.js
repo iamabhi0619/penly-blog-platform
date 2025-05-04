@@ -1,5 +1,7 @@
 // app/page.js
 
+import Footer from "@/components/Footer";
+import { NavigationBar } from "@/components/NavigationBar";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -7,17 +9,7 @@ export default function LandingPage() {
   return (
     <div className="bg-gray-100 min-h-screen flex flex-col justify-center items-center text-center">
       {/* Header */}
-      <header className="w-full py-1 bg-white shadow-md">
-        <div className="max-w-7xl mx-auto flex justify-center items-center">
-          <Image
-            src="/assets/logo/logo.png"   // Make sure to replace with your logo
-            alt="Penly Logo"
-            width={120}
-            height={40}
-          />
-         
-        </div>
-      </header>
+      <NavigationBar />
 
       {/* Hero Section */}
       <section className="flex flex-col justify-center items-center py-20 px-4">
@@ -77,9 +69,7 @@ export default function LandingPage() {
       </section>
 
       {/* Footer */}
-      <footer className="text-slate-800 py-8">
-        <p className="text-center text-lg">© 2025 Penly. All rights reserved.</p>
-      </footer>
+      <Footer />
     </div>
   );
 }

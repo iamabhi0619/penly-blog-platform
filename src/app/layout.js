@@ -16,7 +16,6 @@ const code = Source_Code_Pro({
 export const metadata = {
   title: "Penly – Blog for Writers and Thinkers",
   description: "Penly is a thoughtfully crafted blog platform for writers, coders, and creators.",
-  themeColor: "#D8E2DC",
   icons: {
     icon: "/assets/icons/favicon.ico",
     apple: "/assets/icons/apple-touch-icon.png",

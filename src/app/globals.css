@@ -1,1 +1,31 @@
 @import "tailwindcss";
+
+@theme {
+  /* Primary Pastel Colors */
+  --color-purple: #9c89b8;
+  --color-blue: #b8bedd;
+  --color-pink: #f0a6ca;
+  --color-light-pink: #e7bcde;
+  --color-gray: #f0e6ef;
+  --color-white: #f2f4ee;
+
+  /* Additional Accents */
+  --color-deep-purple: #6c588f;
+  --color-muted-purple: #cbb4d4; /* For backgrounds/cards */
+  --color-soft-yellow: #fff2b2; /* For highlights, callouts */
+  --color-mint: #c7f9cc; /* For success/info tags */
+  --color-soft-red: #ffb3b3; /* For warnings/errors */
+
+  /* Grays and Utility */
+  --color-gray-light: #f7f7f7;
+  --color-gray-medium: #d6d6d6;
+  --color-gray-dark: #a1a1a1;
+
+  /* Text Colors */
+  --color-text-primary: #3d3d3d;
+  --color-text-muted: #6e6e6e;
+  --color-text-black: #0f0f0f;
+
+  --font-serif: "Source Serif 4", serif;
+  --font-code: "Source Code Pro", monospace;
+}
