@@ -88,7 +88,7 @@ export const NavigationBar = () => {
               className="flex justify-center sm:justify-end"
             >
               <Link
-                href="/get-started"
+                href="/auth"
                 className="bg-purple text-white px-5 py-2 rounded-full font-semibold text-sm md:text-base hover:bg-purple/90 transition-all shadow-md"
               >
                 Get Started

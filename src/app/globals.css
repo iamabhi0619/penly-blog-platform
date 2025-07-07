@@ -11,10 +11,14 @@
 
   /* Additional Accents */
   --color-deep-purple: #6c588f;
-  --color-muted-purple: #cbb4d4; /* For backgrounds/cards */
-  --color-soft-yellow: #fff2b2; /* For highlights, callouts */
-  --color-mint: #c7f9cc; /* For success/info tags */
-  --color-soft-red: #ffb3b3; /* For warnings/errors */
+  --color-muted-purple: #cbb4d4;
+  /* For backgrounds/cards */
+  --color-soft-yellow: #fff2b2;
+  /* For highlights, callouts */
+  --color-mint: #c7f9cc;
+  /* For success/info tags */
+  --color-soft-red: #ffb3b3;
+  /* For warnings/errors */
 
   /* Grays and Utility */
   --color-gray-light: #f7f7f7;
@@ -26,6 +30,11 @@
   --color-text-muted: #6e6e6e;
   --color-text-black: #0f0f0f;
 
-  --font-serif: "Source Serif 4", serif;
-  --font-code: "Source Code Pro", monospace;
+  /* Borders and Dividers */
+
+  /* Font Variables */
+  --font-serif: "Noto Serif", serif;
+  --font-mono: "Overpass Mono", monospace;
+  --font-sans-serif: "Overpass", sans-serif;
+  
 }

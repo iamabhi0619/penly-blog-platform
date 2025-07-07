@@ -1,8 +1,9 @@
 // app/page.js
-
+'use client';
 import Footer from "@/components/Footer";
 import { NavigationBar } from "@/components/NavigationBar";
-import Image from "next/image";
+import { HeroHighlight, Highlight } from "@/components/ui/HeroHighlight";
+import { motion } from "framer-motion";
 import Link from "next/link";
 
 export default function LandingPage() {
@@ -12,12 +13,29 @@ export default function LandingPage() {
       <NavigationBar />
 
       {/* Hero Section */}
-      <section className="flex flex-col justify-center items-center py-20 px-4">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4">Welcome to Penly</h1>
-        <p className="text-lg text-gray-600 mb-8">
-          A beautiful blogging platform for writers and creators.
-        </p>
-      </section>
+      <HeroHighlight containerClassName="bg-gray-light" className="bg-white/50 p-10 rounded-3xl">
+        <motion.h1
+          initial={{
+            opacity: 0,
+            y: 20,
+          }}
+          animate={{
+            opacity: 1,
+            y: [20, -5, 0],
+          }}
+          transition={{
+            duration: 0.5,
+            ease: [0.4, 0.0, 0.2, 1],
+          }}
+          className="text-2xl px-4 md:text-4xl lg:text-5xl font-serif max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
+        >
+          Turn your thoughts into published stories that resonate, inspire, and spark conversation.
+          <br />
+          <Highlight className="bg-gradient-to-r from-blue to-purple text-text-black">
+            Your Voice, Your Blog, Your Platform.
+          </Highlight>
+        </motion.h1>
+      </HeroHighlight>
 
       {/* About Section */}
       <section id="about" className="py-20 px-4 bg-gray-50">

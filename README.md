@@ -17,7 +17,6 @@ Penly is a modern, minimalistic, and user-friendly blogging platform built with 
 ## Tech Stack
 
 - **Frontend**: Next.js (React), Tailwind CSS
-- **Fonts**: Source Serif 4 (for normal text) and Source Code Pro (for code snippets)
 - **Manifest**: Progressive Web App (PWA) features, including home screen icons and offline support.
 
 ---
